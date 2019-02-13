@@ -24,7 +24,7 @@ class AI(object):
 @classmethod
 def lei(cls):
     return cls.__doc__
-s2=AI()
+
 AI.l=lei
 print(AI.l())
 
@@ -33,7 +33,7 @@ print(AI.l())
 def dead():
     print('静态方法')
 
-s3=AI()
+
 AI.d=dead
 AI.d()
 
